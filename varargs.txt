@@ -1,0 +1,1 @@
+varargs is a method that takes a variable number of arguments is a varargs method.

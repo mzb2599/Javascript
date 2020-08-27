@@ -1,24 +1,15 @@
-function zoo() {
-    const tiger = "Zinda hai"
-    const lion = "Akela hi aata hai"
-    function wholives() {
-        console.log("Tiger ", tiger);
-        msg='closures'
-        function withinwholives() {
-            console.log("Msg: ",msg);
-            
-        }
-    }
-    return wholives
-}/*
-function display() {
-    function hello() {
-        console.log("Hello Everyone");
-    }
-    return "hello"
-}*/
-var kaun = zoo()
-kaun()/*
-const x = display()
-console.log(x);
-*/
+var v = 1;
+x = 5;
+var w = 1;
+function fna(){
+    var v = 5;
+    v = 2; 
+}
+function fnb(){
+    console.log("in fnb: ", v);
+    console.log("in fnb: ", v);
+
+}
+console.log("Outside ",v);
+fna();
+fnb();
