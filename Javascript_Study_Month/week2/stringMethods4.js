@@ -15,7 +15,7 @@ console.log(`Substr of string ${s8} from 0 to 15 is `+s8.substr(5, 15)); // subs
 // // The substring() method does not change the original string.
 let s9 = "substring() method returns the part of the string between the two specified indexes";
 console.log(`Substring of string ${s9} from 0 to 15 is `+s9.substring(5, 15)); // substring() method
-
+5
 // 21. toLowerCase
 // // The toLowerCase() method returns the calling string value converted to lower case.
 // // The toLowerCase() method does not change the original string.
